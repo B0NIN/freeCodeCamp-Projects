@@ -1,0 +1,66 @@
+<!DOCtype html>
+
+<html lang="en">
+
+<heading>
+
+    <title>Popular Japanese Foods Survey</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+
+</heading>
+
+<body>
+
+    <div class="title">
+        <h1 id="title">What Japanese food do you like?</h1>
+        <p id="description">We want to know what your favorite Japanese foods are!</p>
+    </div>
+
+    <form id="survey-form">
+        <fieldset class="about">
+            <legend>About you</legend>
+            <label id="name-label" name="name" for="name">Name: <input id="name" type="text" required
+                    placeholder="Enter your name" /></label>
+            <label id="email-label" name="email" for="email">Email: <input id="email" type="email" required
+                    placeholder="Enter your email address" /></label>
+            <label id="number-label" name="number" for="number">Age: <input id="number" type="number" required
+                    placeholder="13" min="13" max="120" /></label>
+        </fieldset>
+
+        <fieldset class="timesvisitedjapan">
+            <legend>How many times have you been to Japan?</legend>
+            <select id="dropdown">
+                <option>(select)</option>
+                <option>Never</option>
+                <option>Once</option>
+                <option>2-4 times</option>
+                <option>More than 5 times</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="doyoulikejapanesefood?">
+            <legend>Do you like Japanese food?</legend>
+            <label>Yes: <input name="japanesefood" type="radio" value="yes" /></label>
+            <label>No: <input name="japanesefood" type="radio" value="no" /></label>
+            <label>Never tried it: <input name="japanesefood" type="radio" value="nevertried" /></label>
+        </fieldset>
+
+        <fieldset class="favoritedish">
+            <legend>Which is your favorite dish?</legend>
+            <label>Okonomiyaki<input name="favorite" type="checkbox" value="okonomiyaki"></label>
+            <label>Takoyaki<input name="favorite" type="checkbox" value="takoyaki"></label>
+            <label>Sushi<input name="favorite" type="checkbox" value="sushi"></label>
+            <label>Ramen<input name="favorite" type="checkbox" value="ramen"></label>
+            <label>Other: <input name="favorite" type="text" name="otherfood" value:"other"></label>
+        </fieldset>
+
+        <fieldset class="why">
+            <legend>Why do you like Japanese food?</legend>
+            <textarea></textarea>
+        </fieldset>
+        <label>Submit answers: <input id="submit" type="submit"></label>
+    </form>
+</body>
+
+</html>

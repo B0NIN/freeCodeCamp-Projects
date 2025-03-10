@@ -1,0 +1,111 @@
+html,
+body {
+  font-family: Georgia, sans-serif;
+  font-size: 16;
+  background-color: #dfd8d7;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  display: wrap;
+  color: #7b5e5e;
+}
+
+.title > h1 {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.title > p {
+  padding-top: 0;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.img-div {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 50px;
+  color: #7b5e5e;
+}
+
+label {
+  font-weight: bold;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.tribute-info {
+  background-color: #7b5e5e;
+  color: #dfd8d7;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#tribute-info ul {
+  margin: 10px 30px;
+  text-align: left;
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+#tribute-info li {
+  padding: 30px;
+}
+
+#about-imoni {
+  text-align: center;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  height: 100px;
+  width: 140px;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #7b5e5e;
+  font-weight: 600;
+}
+
+#about-imoni img {
+  object-fit: contain;
+  height: 80px;
+}
+
+#likes,
+#dislikes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  margin: 30px auto;
+}
+
+a:hover {
+  color: #7b5e5e;
+}
+
+a {
+  color: black;
+}
